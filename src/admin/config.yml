@@ -41,10 +41,19 @@ collections:
               - { name: "name", label: "Nom du projet", widget: "string" }
               - { name: "description", label: "Description", widget: "text" }
               - { name: "miniature", label: "Miniature (carrée)", widget: "image", required: false }
-              - name: "images"
-                label: "Images de la galerie"
+              - name: "medias"
+                label: "Galerie (images, vidéos, lotties)"
                 widget: "list"
-                field: { name: "image", label: "Image", widget: "image" }
+                fields:
+                  - name: "type"
+                    label: "Type de media"
+                    widget: "select"
+                    options:
+                      - { label: "Image", value: "image" }
+                      - { label: "Vidéo (MP4 autoplay)", value: "video" }
+                      - { label: "Lottie (JSON)", value: "lottie" }
+                    default: "image"
+                  - { name: "file", label: "Fichier", widget: "file" }
 
       # ---- À PROPOS ----
       - name: "apropos"
