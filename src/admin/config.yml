@@ -1,0 +1,70 @@
+backend:
+  name: github
+  repo: xavierperrillat-lab/xavierperrillat.com
+  branch: main
+
+media_folder: "src/assets/img"
+public_folder: "/assets/img"
+
+collections:
+  - name: "settings"
+    label: "Contenu du site"
+    editor:
+      preview: false
+    files:
+
+      # ---- HERO ----
+      - name: "hero"
+        label: "Hero"
+        file: "src/_data/hero.json"
+        fields:
+          - name: "lines"
+            label: "Lignes du hero"
+            widget: "list"
+            fields:
+              - { name: "text", label: "Texte (vide si animé)", widget: "string", required: false }
+              - { name: "animated", label: "Ligne animée ?", widget: "boolean", default: false }
+              - name: "slides"
+                label: "Textes qui défilent"
+                widget: "list"
+                required: false
+                field: { name: "slide", label: "Texte", widget: "string" }
+
+      # ---- PROJETS ----
+      - name: "projets"
+        label: "Projets"
+        file: "src/_data/projets.json"
+        fields:
+          - name: "items"
+            label: "Liste des projets"
+            widget: "list"
+            fields:
+              - { name: "name", label: "Nom du projet", widget: "string" }
+              - { name: "description", label: "Description", widget: "text" }
+              - { name: "miniature", label: "Miniature (carrée)", widget: "image", required: false }
+              - name: "images"
+                label: "Images de la galerie"
+                widget: "list"
+                field: { name: "image", label: "Image", widget: "image" }
+
+      # ---- À PROPOS ----
+      - name: "apropos"
+        label: "À propos"
+        file: "src/_data/apropos.json"
+        fields:
+          - { name: "image", label: "Photo", widget: "image" }
+          - name: "paragraphs"
+            label: "Paragraphes"
+            widget: "list"
+            field: { name: "paragraph", label: "Paragraphe", widget: "text" }
+
+      # ---- CONTACT ----
+      - name: "contact"
+        label: "Contact"
+        file: "src/_data/contact.json"
+        fields:
+          - { name: "email", label: "Email", widget: "string" }
+          - { name: "phone", label: "Téléphone (affiché)", widget: "string" }
+          - { name: "phone_link", label: "Téléphone (lien, ex: +33698885452)", widget: "string" }
+          - { name: "instagram", label: "Lien Instagram", widget: "string" }
+          - { name: "linkedin", label: "Lien LinkedIn", widget: "string" }

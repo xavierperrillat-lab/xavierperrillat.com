@@ -1,0 +1,30 @@
+{
+  "lines": [
+    {
+      "text": "Studio de création qui",
+      "animated": false
+    },
+    {
+      "text": "",
+      "animated": true,
+      "slides": [
+        "façonne des marques",
+        "sublime du contenu",
+        "invente des campagnes"
+      ]
+    },
+    {
+      "text": "pour celles et ceux",
+      "animated": false
+    },
+    {
+      "text": "",
+      "animated": true,
+      "slides": [
+        "qui se lancent.",
+        "qui pivotent.",
+        "qui bataillent."
+      ]
+    }
+  ]
+}

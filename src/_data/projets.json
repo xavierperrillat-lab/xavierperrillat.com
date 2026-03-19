@@ -1,0 +1,104 @@
+{
+  "items": [
+    {
+      "name": "Contexte",
+      "description": "Identité visuelle et direction artistique pour Contexte.",
+      "miniature": "/assets/img/projets/contexte-mini.jpg",
+      "images": [
+        "/assets/img/projets/contexte-01.jpg",
+        "/assets/img/projets/contexte-02.jpg",
+        "/assets/img/projets/contexte-03.jpg"
+      ]
+    },
+    {
+      "name": "Ekhoscènes",
+      "description": "Design de marque pour Ekhoscènes.",
+      "miniature": "/assets/img/projets/ekhoscenes-mini.jpg",
+      "images": [
+        "/assets/img/projets/ekhoscenes-01.jpg",
+        "/assets/img/projets/ekhoscenes-02.jpg",
+        "/assets/img/projets/ekhoscenes-03.jpg"
+      ]
+    },
+    {
+      "name": "OpenClassrooms - 24",
+      "description": "Direction artistique pour OpenClassrooms 2024.",
+      "miniature": "/assets/img/projets/oc24-mini.jpg",
+      "images": [
+        "/assets/img/projets/oc24-01.jpg",
+        "/assets/img/projets/oc24-02.jpg",
+        "/assets/img/projets/oc24-03.jpg"
+      ]
+    },
+    {
+      "name": "Cairn",
+      "description": "Identité de marque pour Cairn.",
+      "miniature": "/assets/img/projets/cairn-mini.jpg",
+      "images": [
+        "/assets/img/projets/cairn-01.jpg",
+        "/assets/img/projets/cairn-02.jpg",
+        "/assets/img/projets/cairn-03.jpg"
+      ]
+    },
+    {
+      "name": "Maison Germain Tillion",
+      "description": "Design éditorial pour la Maison Germain Tillion.",
+      "miniature": "/assets/img/projets/mgt-mini.jpg",
+      "images": [
+        "/assets/img/projets/mgt-01.jpg",
+        "/assets/img/projets/mgt-02.jpg",
+        "/assets/img/projets/mgt-03.jpg"
+      ]
+    },
+    {
+      "name": "Myndea",
+      "description": "Branding complet pour Myndea.",
+      "miniature": "/assets/img/projets/myndea-mini.jpg",
+      "images": [
+        "/assets/img/projets/myndea-01.jpg",
+        "/assets/img/projets/myndea-02.jpg",
+        "/assets/img/projets/myndea-03.jpg"
+      ]
+    },
+    {
+      "name": "Abberline",
+      "description": "Direction artistique pour Abberline.",
+      "miniature": "/assets/img/projets/abberline-mini.jpg",
+      "images": [
+        "/assets/img/projets/abberline-01.jpg",
+        "/assets/img/projets/abberline-02.jpg",
+        "/assets/img/projets/abberline-03.jpg"
+      ]
+    },
+    {
+      "name": "Camp",
+      "description": "Identité de marque pour Camp.",
+      "miniature": "/assets/img/projets/camp-mini.jpg",
+      "images": [
+        "/assets/img/projets/camp-01.jpg",
+        "/assets/img/projets/camp-02.jpg",
+        "/assets/img/projets/camp-03.jpg"
+      ]
+    },
+    {
+      "name": "OpenClassrooms 2023",
+      "description": "Campagne pour OpenClassrooms 2023.",
+      "miniature": "/assets/img/projets/oc23-mini.jpg",
+      "images": [
+        "/assets/img/projets/oc23-01.jpg",
+        "/assets/img/projets/oc23-02.jpg",
+        "/assets/img/projets/oc23-03.jpg"
+      ]
+    },
+    {
+      "name": "Lumni",
+      "description": "Design de contenu éducatif pour Lumni.",
+      "miniature": "/assets/img/projets/lumni-mini.jpg",
+      "images": [
+        "/assets/img/projets/lumni-01.jpg",
+        "/assets/img/projets/lumni-02.jpg",
+        "/assets/img/projets/lumni-03.jpg"
+      ]
+    }
+  ]
+}
