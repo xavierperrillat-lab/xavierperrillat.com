@@ -1,2 +1,0 @@
-# xavierperrillat.com
-xavierperrillat.com
