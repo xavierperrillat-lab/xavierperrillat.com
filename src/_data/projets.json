@@ -22,19 +22,19 @@
     {
       "name": "Ekhoscènes",
       "description": "Design de marque pour Ekhoscènes.",
-      "miniature": "/assets/img/projets/mini-ekhoscenes.jpg",
+      "miniature": "/assets/img/mini-ekhoscenes.jpg",
       "medias": [
         {
           "type": "image",
-          "file": "/assets/img/projets/galerie-ekhoscenes-01.jpg"
+          "file": "/assets/img/galerie-ekhoscenes-01.png"
         },
         {
           "type": "image",
-          "file": "/assets/img/projets/galerie-ekhoscenes-02.jpg"
+          "file": "/assets/img/galerie-ekhoscenes-02.png"
         },
         {
           "type": "image",
-          "file": "/assets/img/projets/galerie-ekhoscenes-03.jpg"
+          "file": "/assets/img/galerie-ekhoscenes-03.png"
         }
       ]
     },
