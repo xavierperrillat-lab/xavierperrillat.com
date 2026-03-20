@@ -10,8 +10,8 @@
    =========================================== */
 @font-face {
   font-family: 'Grotta';
-  src: url('/assets/Grotta-Medium.woff2') format('woff2'),
-       url('/assets/Grotta-Medium.woff') format('woff');
+  src: url('/assets/fonts/Grotta-Medium.woff2') format('woff2'),
+       url('/assets/fonts/Grotta-Medium.woff') format('woff');
   font-weight: 500;
   font-style: normal;
   font-display: swap;
@@ -403,7 +403,7 @@ img { max-width: 100%; display: block; }
 
 .projet-item__galerie-item {
   width: 100%;
-  aspect-ratio: 1920 / 1080;
+  aspect-ratio: 3 / 2;
   overflow: hidden;
   position: relative;
 }
@@ -561,7 +561,7 @@ img { max-width: 100%; display: block; }
   .projet-item.is-open .projet-item__header { top: 60px; }
   .projet-item__fiche-inner { padding: 24px 0 48px; }
   .projet-item__description { font-size: 18px; line-height: 1.4; margin-bottom: 32px; }
-  .projet-item__galerie-item { aspect-ratio: 5 / 4; }
+  .projet-item__galerie-item { aspect-ratio: 4 / 3; }
   .apropos { padding-top: 80px; padding-bottom: 80px; }
   .apropos__title { font-size: 18px; }
   .apropos__title-cell { padding-bottom: 16px; margin-bottom: 32px; }
@@ -639,7 +639,7 @@ img { max-width: 100%; display: block; }
 
 /* Lottie items don't need parallax overflow */
 .projet-item__galerie-item:has(lottie-player) {
-  aspect-ratio: 1920 / 1080;
+  aspect-ratio: 3 / 2;
 }
 .projet-item__galerie-item:has(lottie-player) .projet-item__galerie-lottie {
   position: absolute;
@@ -761,7 +761,7 @@ img { max-width: 100%; display: block; }
   <div class="container">
     <div class="contact__title-cell reveal"><h2 class="contact__title">Contact</h2></div>
     <div class="contact__info reveal">
-      <p>M › <a href="/cdn-cgi/l/email-protection#d3a8a8f3b0bcbda7b2b0a7fdb6beb2babff3aeae">{{ contact.email }}</a></p>
+      <p>M › <a href="mailto:{{ contact.email }}">{{ contact.email }}</a></p>
       <p>T › <a href="tel:{{ contact.phone_link }}">{{ contact.phone }}</a></p>
       <div class="contact__links">
         <a href="{{ contact.instagram }}">Insta</a>
@@ -772,7 +772,7 @@ img { max-width: 100%; display: block; }
   </div>
 </section>
 
-<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+<script>
 (function() {
   'use strict';
   const isMobile = window.matchMedia('(max-width: 768px)').matches;
@@ -1028,4 +1028,10 @@ img { max-width: 100%; display: block; }
 </script>
 <script>
   if (window.netlifyIdentity) {
-    window.netlifyIdentity.on("init", us
+    window.netlifyIdentity.on("init", user => {
+      if (!user) { window.netlifyIdentity.on("login", () => { document.location.href = "/admin/"; }); }
+    });
+  }
+</script>
+</body>
+</html>
