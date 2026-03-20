@@ -413,9 +413,10 @@ img { max-width: 100%; display: block; }
   top: 0;
   left: 0;
   width: 100%;
-  height: auto;
+height: 120%;
+  object-fit: cover;
   will-change: transform;
-  transform: translateY(0%);
+  transform: translateY(-10%);
 }
 
 /* Sticky header when project is open */
@@ -627,9 +628,10 @@ img { max-width: 100%; display: block; }
   top: 0;
   left: 0;
   width: 100%;
-  height: auto;
+height: 120%;
+  object-fit: cover;
   will-change: transform;
-  transform: translateY(0%);
+  transform: translateY(-10%);
 }
 
 .projet-item__galerie-lottie {
@@ -977,7 +979,7 @@ img { max-width: 100%; display: block; }
 
   (function parallax() {
     const vh = window.innerHeight;
-    document.querySelectorAll('.projet-item__galerie-img').forEach(img => {
+    document.querySelectorAll('img.projet-item__galerie-img').forEach(img => {
       const r = img.parentElement.getBoundingClientRect();
       if (r.top < vh && r.bottom > 0) {
         const p = Math.max(0, Math.min(1, (vh - r.top) / (vh + r.height)));
