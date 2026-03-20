@@ -50,7 +50,19 @@
         },
         {
           "type": "image",
-          "file": "/assets/img/projets/galerie-ekhoscenes-03.jpg"
+          "file": "/assets/img/galerie-ekhoscenes-03.png"
+        },
+        {
+          "type": "image",
+          "file": "/assets/img/galerie-ekhoscenes-04.png"
+        },
+        {
+          "type": "image",
+          "file": "/assets/img/galerie-ekhoscenes-05.png"
+        },
+        {
+          "type": "video",
+          "file": "/assets/img/ekhoscenes-logo-1.mp4"
         }
       ]
     },
