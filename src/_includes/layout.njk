@@ -928,7 +928,10 @@ img { max-width: 100%; display: block; }
 
     headerEl.addEventListener('click', () => {
       if (item.classList.contains('is-open')) {
+        const stickyH = window.innerWidth <= 768 ? 60 : 80;
         closeProjet(item);
+        item.scrollIntoView({ behavior: 'instant', block: 'start' });
+        window.scrollBy(0, -stickyH);
         return;
       }
 
@@ -970,7 +973,7 @@ img { max-width: 100%; display: block; }
   });
 
   /* ---- PARALLAX ---- */
-  const parallaxFactor = isMobile ? 15 : 35;
+  const parallaxFactor = isMobile ? 8 : 20;
 
   (function parallax() {
     const vh = window.innerHeight;
