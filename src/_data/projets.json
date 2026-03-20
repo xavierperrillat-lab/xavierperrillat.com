@@ -11,11 +11,27 @@
         },
         {
           "type": "image",
-          "file": "/assets/img/galerie-contexte-03.png"
+          "file": "/assets/img/galerie-contexte-02.png"
         },
         {
           "type": "image",
-          "file": "/assets/img/galerie-contexte-02.png"
+          "file": "/assets/img/galerie-contexte-04.png"
+        },
+        {
+          "type": "image",
+          "file": "/assets/img/galerie-contexte-04.png"
+        },
+        {
+          "type": "image",
+          "file": "/assets/img/galerie-contexte-05.png"
+        },
+        {
+          "type": "image",
+          "file": "/assets/img/galerie-contexte-07.png"
+        },
+        {
+          "type": "video",
+          "file": "/assets/img/contexte-showcase.mp4"
         }
       ]
     },
