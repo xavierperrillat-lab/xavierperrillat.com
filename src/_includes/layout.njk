@@ -981,7 +981,7 @@ img { max-width: 100%; display: block; }
       const r = img.parentElement.getBoundingClientRect();
       if (r.top < vh && r.bottom > 0) {
         const p = Math.max(0, Math.min(1, (vh - r.top) / (vh + r.height)));
-        img.style.transform = 'translateY(' + -(p * parallaxFactor) + '%)';
+        img.style.transform = 'translateY(' + ((0.5 - p) * parallaxFactor) + '%)';
       }
     });
     requestAnimationFrame(parallax);
