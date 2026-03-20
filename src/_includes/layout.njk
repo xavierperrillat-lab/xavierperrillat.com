@@ -413,10 +413,10 @@ img { max-width: 100%; display: block; }
   top: 0;
   left: 0;
   width: 100%;
-height: 140%;
-  object-fit: cover;
+width: 100%;
+  height: auto;
   will-change: transform;
-  transform: translateY(-14%);
+  transform: translateY(-17%);
 }
 
 /* Sticky header when project is open */
@@ -975,15 +975,15 @@ height: 120%;
   });
 
   /* ---- PARALLAX ---- */
-  const parallaxFactor = isMobile ? 8 : 20;
-
+const parallaxCenter = isMobile ? -12.5 : -17;
+  const parallaxFactor = isMobile ? 15 : 25;
   (function parallax() {
     const vh = window.innerHeight;
     document.querySelectorAll('img.projet-item__galerie-img').forEach(img => {
       const r = img.parentElement.getBoundingClientRect();
       if (r.top < vh && r.bottom > 0) {
         const p = Math.max(0, Math.min(1, (vh - r.top) / (vh + r.height)));
-        img.style.transform = 'translateY(' + ((0.5 - p) * parallaxFactor) + '%)';
+        img.style.transform = 'translateY(' + (parallaxCenter + (0.5 - p) * parallaxFactor) + '%)';
       }
     });
     requestAnimationFrame(parallax);
