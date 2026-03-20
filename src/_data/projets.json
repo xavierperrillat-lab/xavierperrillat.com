@@ -2,60 +2,22 @@
   "items": [
     {
       "name": "Contexte",
-      "description": "Contexte est un média d'intelligence politique. Pour le lancement de Power, leur première verticale internationale qui décrypte les dynamiques de pouvoir à Bruxelles, nous avons imaginé avec Antoine Louis une campagne qui interroge la pratique du pouvoir. Notre conviction : le vrai pouvoir, c'est l'information — anticipée, vérifiée, livrée avant tout le monde. Knowledge is the new knowhow.",
-      "miniature": "/assets/img/mini-contexte.png",
+      "description": "Identité visuelle et direction artistique pour Contexte.",
+      "miniature": "/assets/img/projets/mini-contexte.jpg",
       "medias": [
-        {
-          "type": "image",
-          "file": "/assets/img/galerie-contexte-01.png"
-        },
-        {
-          "type": "image",
-          "file": "/assets/img/galerie-contexte-02.png"
-        },
-        {
-          "type": "image",
-          "file": "/assets/img/galerie-contexte-03.png"
-        },
-        {
-          "type": "image",
-          "file": "/assets/img/galerie-contexte-04.png"
-        },
-        {
-          "type": "image",
-          "file": "/assets/img/galerie-contexte-05.png"
-        },
-        {
-          "type": "image",
-          "file": "/assets/img/galerie-contexte-06.png"
-        },
-        {
-          "type": "image",
-          "file": "/assets/img/galerie-contexte-07.png"
-        },
-        {
-          "type": "video",
-          "file": "/assets/img/contexte-showcase.mp4"
-        }
+        { "type": "image", "file": "/assets/img/projets/galerie-contexte-01.jpg" },
+        { "type": "image", "file": "/assets/img/projets/galerie-contexte-02.jpg" },
+        { "type": "image", "file": "/assets/img/projets/galerie-contexte-03.jpg" }
       ]
     },
     {
       "name": "Ekhoscènes",
       "description": "Design de marque pour Ekhoscènes.",
-      "miniature": "/assets/img/mini-ekhoscenes.jpg",
+      "miniature": "/assets/img/projets/mini-ekhoscenes.jpg",
       "medias": [
-        {
-          "type": "image",
-          "file": "/assets/img/galerie-ekhoscenes-01.png"
-        },
-        {
-          "type": "image",
-          "file": "/assets/img/galerie-ekhoscenes-02.png"
-        },
-        {
-          "type": "image",
-          "file": "/assets/img/galerie-ekhoscenes-03.png"
-        }
+        { "type": "image", "file": "/assets/img/projets/galerie-ekhoscenes-01.jpg" },
+        { "type": "image", "file": "/assets/img/projets/galerie-ekhoscenes-02.jpg" },
+        { "type": "image", "file": "/assets/img/projets/galerie-ekhoscenes-03.jpg" }
       ]
     },
     {
@@ -63,18 +25,9 @@
       "description": "Direction artistique pour OpenClassrooms 2024.",
       "miniature": "/assets/img/projets/mini-oc24.jpg",
       "medias": [
-        {
-          "type": "image",
-          "file": "/assets/img/projets/galerie-oc24-01.jpg"
-        },
-        {
-          "type": "image",
-          "file": "/assets/img/projets/galerie-oc24-02.jpg"
-        },
-        {
-          "type": "image",
-          "file": "/assets/img/projets/galerie-oc24-03.jpg"
-        }
+        { "type": "image", "file": "/assets/img/projets/galerie-oc24-01.jpg" },
+        { "type": "image", "file": "/assets/img/projets/galerie-oc24-02.jpg" },
+        { "type": "image", "file": "/assets/img/projets/galerie-oc24-03.jpg" }
       ]
     },
     {
@@ -82,18 +35,9 @@
       "description": "Identité de marque pour Cairn.",
       "miniature": "/assets/img/projets/mini-cairn.jpg",
       "medias": [
-        {
-          "type": "image",
-          "file": "/assets/img/projets/galerie-cairn-01.jpg"
-        },
-        {
-          "type": "image",
-          "file": "/assets/img/projets/galerie-cairn-02.jpg"
-        },
-        {
-          "type": "image",
-          "file": "/assets/img/projets/galerie-cairn-03.jpg"
-        }
+        { "type": "image", "file": "/assets/img/projets/galerie-cairn-01.jpg" },
+        { "type": "image", "file": "/assets/img/projets/galerie-cairn-02.jpg" },
+        { "type": "image", "file": "/assets/img/projets/galerie-cairn-03.jpg" }
       ]
     },
     {
@@ -101,18 +45,9 @@
       "description": "Design éditorial pour la Maison Germain Tillion.",
       "miniature": "/assets/img/projets/mini-mgt.jpg",
       "medias": [
-        {
-          "type": "video",
-          "file": "/assets/img/maison-germaine-tillion-02.mp4"
-        },
-        {
-          "type": "image",
-          "file": "/assets/img/projets/galerie-mgt-02.jpg"
-        },
-        {
-          "type": "image",
-          "file": "/assets/img/projets/galerie-mgt-03.jpg"
-        }
+        { "type": "image", "file": "/assets/img/projets/galerie-mgt-01.jpg" },
+        { "type": "image", "file": "/assets/img/projets/galerie-mgt-02.jpg" },
+        { "type": "image", "file": "/assets/img/projets/galerie-mgt-03.jpg" }
       ]
     },
     {
@@ -120,18 +55,9 @@
       "description": "Branding complet pour Myndea.",
       "miniature": "/assets/img/projets/mini-myndea.jpg",
       "medias": [
-        {
-          "type": "image",
-          "file": "/assets/img/projets/galerie-myndea-01.jpg"
-        },
-        {
-          "type": "image",
-          "file": "/assets/img/projets/galerie-myndea-02.jpg"
-        },
-        {
-          "type": "image",
-          "file": "/assets/img/projets/galerie-myndea-03.jpg"
-        }
+        { "type": "image", "file": "/assets/img/projets/galerie-myndea-01.jpg" },
+        { "type": "image", "file": "/assets/img/projets/galerie-myndea-02.jpg" },
+        { "type": "image", "file": "/assets/img/projets/galerie-myndea-03.jpg" }
       ]
     },
     {
@@ -139,18 +65,9 @@
       "description": "Direction artistique pour Abberline.",
       "miniature": "/assets/img/projets/mini-abberline.jpg",
       "medias": [
-        {
-          "type": "image",
-          "file": "/assets/img/projets/galerie-abberline-01.jpg"
-        },
-        {
-          "type": "image",
-          "file": "/assets/img/projets/galerie-abberline-02.jpg"
-        },
-        {
-          "type": "image",
-          "file": "/assets/img/projets/galerie-abberline-03.jpg"
-        }
+        { "type": "image", "file": "/assets/img/projets/galerie-abberline-01.jpg" },
+        { "type": "image", "file": "/assets/img/projets/galerie-abberline-02.jpg" },
+        { "type": "image", "file": "/assets/img/projets/galerie-abberline-03.jpg" }
       ]
     },
     {
@@ -158,18 +75,9 @@
       "description": "Identité de marque pour Camp.",
       "miniature": "/assets/img/projets/mini-camp.jpg",
       "medias": [
-        {
-          "type": "image",
-          "file": "/assets/img/projets/galerie-camp-01.jpg"
-        },
-        {
-          "type": "image",
-          "file": "/assets/img/projets/galerie-camp-02.jpg"
-        },
-        {
-          "type": "image",
-          "file": "/assets/img/projets/galerie-camp-03.jpg"
-        }
+        { "type": "image", "file": "/assets/img/projets/galerie-camp-01.jpg" },
+        { "type": "image", "file": "/assets/img/projets/galerie-camp-02.jpg" },
+        { "type": "image", "file": "/assets/img/projets/galerie-camp-03.jpg" }
       ]
     },
     {
@@ -177,18 +85,9 @@
       "description": "Campagne pour OpenClassrooms 2023.",
       "miniature": "/assets/img/projets/mini-oc23.jpg",
       "medias": [
-        {
-          "type": "image",
-          "file": "/assets/img/projets/galerie-oc23-01.jpg"
-        },
-        {
-          "type": "image",
-          "file": "/assets/img/projets/galerie-oc23-02.jpg"
-        },
-        {
-          "type": "image",
-          "file": "/assets/img/projets/galerie-oc23-03.jpg"
-        }
+        { "type": "image", "file": "/assets/img/projets/galerie-oc23-01.jpg" },
+        { "type": "image", "file": "/assets/img/projets/galerie-oc23-02.jpg" },
+        { "type": "image", "file": "/assets/img/projets/galerie-oc23-03.jpg" }
       ]
     },
     {
@@ -196,18 +95,9 @@
       "description": "Design de contenu éducatif pour Lumni.",
       "miniature": "/assets/img/projets/mini-lumni.jpg",
       "medias": [
-        {
-          "type": "image",
-          "file": "/assets/img/projets/galerie-lumni-01.jpg"
-        },
-        {
-          "type": "image",
-          "file": "/assets/img/projets/galerie-lumni-02.jpg"
-        },
-        {
-          "type": "image",
-          "file": "/assets/img/projets/galerie-lumni-03.jpg"
-        }
+        { "type": "image", "file": "/assets/img/projets/galerie-lumni-01.jpg" },
+        { "type": "image", "file": "/assets/img/projets/galerie-lumni-02.jpg" },
+        { "type": "image", "file": "/assets/img/projets/galerie-lumni-03.jpg" }
       ]
     }
   ]
