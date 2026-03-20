@@ -12,7 +12,6 @@ collections:
       preview: false
     files:
 
-      # ---- HERO ----
       - name: "hero"
         label: "Hero"
         file: "src/_data/hero.json"
@@ -29,7 +28,6 @@ collections:
                 required: false
                 field: { name: "slide", label: "Texte", widget: "string" }
 
-      # ---- PROJETS ----
       - name: "projets"
         label: "Projets"
         file: "src/_data/projets.json"
@@ -55,7 +53,6 @@ collections:
                     default: "image"
                   - { name: "file", label: "Fichier", widget: "file" }
 
-      # ---- À PROPOS ----
       - name: "apropos"
         label: "À propos"
         file: "src/_data/apropos.json"
@@ -66,7 +63,6 @@ collections:
             widget: "list"
             field: { name: "paragraph", label: "Paragraphe", widget: "text" }
 
-      # ---- CONTACT ----
       - name: "contact"
         label: "Contact"
         file: "src/_data/contact.json"
