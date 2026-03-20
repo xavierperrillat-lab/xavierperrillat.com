@@ -413,10 +413,9 @@ img { max-width: 100%; display: block; }
   top: 0;
   left: 0;
   width: 100%;
-  height: 200%;
-  object-fit: cover;
+  height: auto;
   will-change: transform;
-  transform: translateY(-25%);
+  transform: translateY(0%);
 }
 
 /* Sticky header when project is open */
@@ -563,7 +562,6 @@ img { max-width: 100%; display: block; }
   .projet-item__fiche-inner { padding: 24px 0 48px; }
   .projet-item__description { font-size: 18px; line-height: 1.4; margin-bottom: 32px; }
   .projet-item__galerie-item { aspect-ratio: 5 / 4; }
-  .projet-item__galerie-img { height: 125%; }
   .apropos { padding-top: 80px; padding-bottom: 80px; }
   .apropos__title { font-size: 18px; }
   .apropos__title-cell { padding-bottom: 16px; margin-bottom: 32px; }
@@ -629,10 +627,9 @@ img { max-width: 100%; display: block; }
   top: 0;
   left: 0;
   width: 100%;
-  height: 200%;
-  object-fit: cover;
+  height: auto;
   will-change: transform;
-  transform: translateY(-25%);
+  transform: translateY(0%);
 }
 
 .projet-item__galerie-lottie {
@@ -648,12 +645,6 @@ img { max-width: 100%; display: block; }
   position: absolute;
   top: 0;
   left: 0;
-}
-
-@media (max-width: 768px) {
-  .projet-item__galerie-item video.projet-item__galerie-img {
-    height: 125%;
-  }
 }
 </style>
 <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
@@ -770,7 +761,7 @@ img { max-width: 100%; display: block; }
   <div class="container">
     <div class="contact__title-cell reveal"><h2 class="contact__title">Contact</h2></div>
     <div class="contact__info reveal">
-      <p>M › <a href="mailto:{{ contact.email }}">{{ contact.email }}</a></p>
+      <p>M › <a href="/cdn-cgi/l/email-protection#d3a8a8f3b0bcbda7b2b0a7fdb6beb2babff3aeae">{{ contact.email }}</a></p>
       <p>T › <a href="tel:{{ contact.phone_link }}">{{ contact.phone }}</a></p>
       <div class="contact__links">
         <a href="{{ contact.instagram }}">Insta</a>
@@ -781,7 +772,7 @@ img { max-width: 100%; display: block; }
   </div>
 </section>
 
-<script>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
 (function() {
   'use strict';
   const isMobile = window.matchMedia('(max-width: 768px)').matches;
@@ -979,7 +970,7 @@ img { max-width: 100%; display: block; }
   });
 
   /* ---- PARALLAX ---- */
-  const parallaxFactor = isMobile ? 20 : 50;
+  const parallaxFactor = isMobile ? 15 : 35;
 
   (function parallax() {
     const vh = window.innerHeight;
@@ -1037,10 +1028,4 @@ img { max-width: 100%; display: block; }
 </script>
 <script>
   if (window.netlifyIdentity) {
-    window.netlifyIdentity.on("init", user => {
-      if (!user) { window.netlifyIdentity.on("login", () => { document.location.href = "/admin/"; }); }
-    });
-  }
-</script>
-</body>
-</html>
+    window.netlifyIdentity.on("init", us
