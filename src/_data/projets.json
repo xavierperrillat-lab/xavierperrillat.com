@@ -2,20 +2,40 @@
   "items": [
     {
       "name": "Contexte",
-      "description": "Identité visuelle et direction artistique pour Contexte.",
-      "miniature": "/assets/img/projets/mini-contexte.jpg",
+      "description": "Contexte est un média d'intelligence politique. Pour le lancement de Power, leur première verticale internationale qui décrypte les dynamiques de pouvoir à Bruxelles, nous avons imaginé avec Antoine Louis une campagne qui interroge la pratique du pouvoir. Notre conviction : le vrai pouvoir, c'est l'information — anticipée, vérifiée, livrée avant tout le monde. Knowledge is the new knowhow.",
+      "miniature": "/assets/img/mini-contexte.png",
       "medias": [
         {
           "type": "image",
-          "file": "/assets/img/projets/galerie-contexte-01.jpg"
+          "file": "/assets/img/galerie-contexte-01.png"
         },
         {
           "type": "image",
-          "file": "/assets/img/projets/galerie-contexte-02.jpg"
+          "file": "/assets/img/galerie-contexte-02.png"
         },
         {
           "type": "image",
-          "file": "/assets/img/projets/galerie-contexte-03.jpg"
+          "file": "/assets/img/galerie-contexte-03.png"
+        },
+        {
+          "type": "image",
+          "file": "/assets/img/galerie-contexte-04.png"
+        },
+        {
+          "type": "image",
+          "file": "/assets/img/galerie-contexte-05.png"
+        },
+        {
+          "type": "image",
+          "file": "/assets/img/galerie-contexte-06.png"
+        },
+        {
+          "type": "image",
+          "file": "/assets/img/galerie-contexte-07.png"
+        },
+        {
+          "type": "video",
+          "file": "/assets/img/contexte-showcase.mp4"
         }
       ]
     },
