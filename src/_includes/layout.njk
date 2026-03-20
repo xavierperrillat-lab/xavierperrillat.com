@@ -398,7 +398,7 @@ img { max-width: 100%; display: block; }
 .projet-item__galerie {
   display: flex;
   flex-direction: column;
-  gap: 0;
+  gap: 4px;
 }
 
 .projet-item__galerie-item {
@@ -975,8 +975,8 @@ height: 120%;
   });
 
   /* ---- PARALLAX ---- */
-const parallaxCenter = isMobile ? -12.5 : -17;
-  const parallaxFactor = isMobile ? 25 : 40;
+const parallaxCenter = isMobile ? -10 : -15;
+  const parallaxFactor = isMobile ? 20 : 35;
   (function parallax() {
     const vh = window.innerHeight;
     document.querySelectorAll('img.projet-item__galerie-img').forEach(img => {
