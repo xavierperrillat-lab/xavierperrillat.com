@@ -63,6 +63,10 @@
         {
           "type": "video",
           "file": "/assets/img/ekhoscenes-logo-1.mp4"
+        },
+        {
+          "type": "video",
+          "file": "/assets/img/gallerie_ekhoscenes_video2.mp4"
         }
       ]
     },
