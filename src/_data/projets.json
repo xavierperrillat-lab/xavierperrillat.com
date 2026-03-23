@@ -3,7 +3,7 @@
     {
       "name": "Contexte",
       "description": "Contexte est un média européen qui produit de l'information politique en profondeur. Pour le lancement de Power, leur nouvelle verticale qui décrypte les dynamiques de pouvoir à Bruxelles, nous avons imaginé avec Antoine Louis une campagne qui interroge la pratique du pouvoir. \nNotre conviction : le vrai pouvoir, c'est une information anticipée, vérifiée, livrée avant tout le monde. Knowledge is the new knowhow.",
-      "miniature": "/assets/img/mini-contexte.png",
+      "miniature": "/assets/img/mini-contexte.jpg",
       "medias": [
         {
           "type": "image",
@@ -93,19 +93,39 @@
     {
       "name": "OpenClassrooms - 24",
       "description": "Direction artistique pour OpenClassrooms 2024.",
-      "miniature": "/assets/img/projets/mini-oc24.jpg",
+      "miniature": "/assets/img/mini-openclassrooms-1.png",
       "medias": [
         {
           "type": "image",
-          "file": "/assets/img/projets/galerie-oc24-01.jpg"
+          "file": "/assets/img/galerie-openclassrooms-01.png"
         },
         {
           "type": "image",
-          "file": "/assets/img/projets/galerie-oc24-02.jpg"
+          "file": "/assets/img/galerie-openclassrooms-02.png"
         },
         {
           "type": "image",
-          "file": "/assets/img/projets/galerie-oc24-03.jpg"
+          "file": "/assets/img/galerie-openclassrooms-03.png"
+        },
+        {
+          "type": "image",
+          "file": "/assets/img/galerie-openclassrooms-04.png"
+        },
+        {
+          "type": "image",
+          "file": "/assets/img/galerie-openclassrooms-05.png"
+        },
+        {
+          "type": "image",
+          "file": "/assets/img/galerie-openclassrooms-06.png"
+        },
+        {
+          "type": "image",
+          "file": "/assets/img/galerie-openclassrooms-07.png"
+        },
+        {
+          "type": "image",
+          "file": "/assets/img/galerie-openclassrooms-08.png"
         }
       ]
     },
