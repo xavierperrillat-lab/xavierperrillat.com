@@ -38,7 +38,7 @@
     {
       "name": "Ekhoscènes",
       "description": "Design de marque pour Ekhoscènes.",
-      "miniature": "/assets/img/mini-ekhoscenes.png",
+      "miniature": "/assets/img/mini-ekhoscenes.jpg",
       "medias": [
         {
           "type": "image",
@@ -62,11 +62,31 @@
         },
         {
           "type": "video",
-          "file": "/assets/img/ekhoscenes-logo-1.mp4"
+          "file": "/assets/img/galerie-ekhoscenes-01.mp4"
+        },
+        {
+          "type": "image",
+          "file": "/assets/img/galerie-ekhoscenes-06.png"
+        },
+        {
+          "type": "image",
+          "file": "/assets/img/galerie-ekhoscenes-07.png"
+        },
+        {
+          "type": "image",
+          "file": "/assets/img/galerie-ekhoscenes-08.png"
         },
         {
           "type": "video",
-          "file": "/assets/img/gallerie_ekhoscenes_video2.mp4"
+          "file": "/assets/img/galerie-ekhoscenes-02.mp4"
+        },
+        {
+          "type": "image",
+          "file": "/assets/img/galerie-ekhoscenes-09.png"
+        },
+        {
+          "type": "video",
+          "file": "/assets/img/galerie-ekhoscenes-03.mp4"
         }
       ]
     },
