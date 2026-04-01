@@ -624,13 +624,16 @@ width: 100%;
    VIDEO & LOTTIE in galerie
    =========================================== */
 .projet-item__galerie-item:has(video) {
-  aspect-ratio: auto;
+  aspect-ratio: unset;
+  overflow: visible;
+  position: relative;
 }
 .projet-item__galerie-item video.projet-item__galerie-img {
+  position: relative;
   width: 100%;
   height: auto;
   display: block;
-  position: relative;
+  transform: none;
 }
 
 .projet-item__galerie-lottie {
