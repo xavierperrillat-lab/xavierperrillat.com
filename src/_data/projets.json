@@ -131,20 +131,60 @@
     },
     {
       "name": "Cairn",
-      "description": "Identité de marque pour Cairn.",
-      "miniature": "/assets/img/projets/mini-cairn.jpg",
+      "description": "Née au cœur des Alpes françaises, Cairn est une marque qui transmet et partage les richesses de la nature à travers des produits de phytothérapie et d'aromathérapie, et des ateliers autour des plantes médicinales. L'identité visuelle est pensée comme un jeu de construction dont les pièces sont des dessins qui rendent hommage au patrimoine naturel remarquable des Alpes.",
+      "miniature": "/assets/img/mini-cairn.jpg",
       "medias": [
         {
           "type": "image",
-          "file": "/assets/img/projets/galerie-cairn-01.jpg"
+          "file": "/assets/img/galerie-cairn-01.jpg"
         },
         {
           "type": "image",
-          "file": "/assets/img/projets/galerie-cairn-02.jpg"
+          "file": "/assets/img/galerie-cairn-02.png"
         },
         {
           "type": "image",
-          "file": "/assets/img/projets/galerie-cairn-03.jpg"
+          "file": "/assets/img/galerie-cairn-03.png"
+        },
+        {
+          "type": "image",
+          "file": "/assets/img/galerie-cairn-04.png"
+        },
+        {
+          "type": "image",
+          "file": "/assets/img/galerie-cairn-05.png"
+        },
+        {
+          "type": "video",
+          "file": "/assets/img/galerie-cairn-06.mp4"
+        },
+        {
+          "type": "image",
+          "file": "/assets/img/galerie-cairn-07.png"
+        },
+        {
+          "type": "image",
+          "file": "/assets/img/galerie-cairn-08.jpg"
+        },
+        {
+          "type": "image",
+          "file": "/assets/img/galerie-cairn-09.jpg"
+        },
+        {
+          "type": "image",
+          "file": "/assets/img/galerie-cairn-10.png"
+        },
+        {
+          "type": "image",
+          "file": "/assets/img/galerie-cairn-11.png"
+        },
+        {
+          "type": "image",
+          "file": "/assets/img/galerie-cairn-12.png"
+        },
+        {
+          "type": "image",
+          "file": "/assets/img/galerie-cairn-13.jpg"
         }
       ]
     },
