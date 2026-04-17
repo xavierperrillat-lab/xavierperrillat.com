@@ -195,15 +195,39 @@
       "medias": [
         {
           "type": "image",
-          "file": "/assets/img/projets/galerie-mgt-01.jpg"
+          "file": "/assets/img/galerie-maison-germaine-tillion-01.png"
         },
         {
           "type": "image",
-          "file": "/assets/img/projets/galerie-mgt-02.jpg"
+          "file": "/assets/img/galerie-maison-germaine-tillion-02.png"
         },
         {
           "type": "image",
-          "file": "/assets/img/projets/galerie-mgt-03.jpg"
+          "file": "/assets/img/galerie-maison-germaine-tillion-03.png"
+        },
+        {
+          "type": "image",
+          "file": "/assets/img/galerie-maison-germaine-tillion-04.png"
+        },
+        {
+          "type": "video",
+          "file": "/assets/img/galerie-maison-germaine-tillion-05.mp4"
+        },
+        {
+          "type": "image",
+          "file": "/assets/img/galerie-maison-germaine-tillion-06.png"
+        },
+        {
+          "type": "image",
+          "file": "/assets/img/galerie-maison-germaine-tillion-07.png"
+        },
+        {
+          "type": "image",
+          "file": "/assets/img/galerie-maison-germaine-tillion-08.png"
+        },
+        {
+          "type": "image",
+          "file": "/assets/img/galerie-maison-germaine-tillion-09.png"
         }
       ]
     },
